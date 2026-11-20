@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabungan Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Tabungan Digital</h1>
+            <p>Kelola tabunganmu dengan mudah</p>
+        </header>
+
+        <section class="saldo-card">
+            <h3>Total Saldo</h3>
+            <h2 id="saldo">Rp 0</h2>
+        </section>
+
+        <section class="form-card">
+            <h3>Transaksi Tabungan</h3>
+
+            <label for="jumlah">Jumlah Uang (Rp)</label>
+            <input type="number" id="jumlah"
+                placeholder="Masukkan jumlah uang" min="1">
+
+            <div class="buttons">
+                <button onclick="setorUang()">Setor Uang</button>
+                <button onclick="ambilUang()">Ambil Uang</button>
+            </div>
+        </section>
+
+        <section class="riwayat-card">
+            <h3>Riwayat Transaksi</h3>
+            <ul id="riwayat">
+                <li>Belum ada transaksi</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    padding: 20px;
+}
+
+.container {
+    max-width: 450px;
+    margin: 30px auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    color: #2563eb;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #64748b;
+}
+
+.saldo-card {
+    background: #2563eb;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.saldo-card h3 {
+    margin-bottom: 15px;
+}
+
+.saldo-card h2 {
+    font-size: 30px;
+}
+
+.form-card,
+.riwayat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px #00000010;
+}
+
+.form-card h3,
+.riwayat-card h3 {
+    margin-bottom: 18px;
+    color: #1e293b;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background: #2563eb;
+    cursor: pointer;
+}
+
+button:last-child {
+    background: #ef4444;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#riwayat {
+    list-style: none;
+}
+
+#riwayat li {
+    padding: 12px 0;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+}
+
+.setor {
+    color: #16a34a;
+}
+
+.ambil {
+    color: #dc2626;
+}
+
+
